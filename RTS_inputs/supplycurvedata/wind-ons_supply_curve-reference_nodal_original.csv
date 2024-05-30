@@ -1,0 +1,5 @@
+region,class,sc_point_gid,capacity,supply_curve_cost_per_mw,trans_adder_per_MW,capital_adder_per_MW,dist_km,reinforcement_dist_km
+b122,8,153,4000,10496.714,100000.0,0,10.497,100
+b309,9,154,4000,9861.736,100000.0,0,9.862,100
+b317,8,155,4000,10647.689,100000.0,0,10.648,100
+b303,9,156,4000,11523.03,100000.0,0,11.523,100

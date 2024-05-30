@@ -1,0 +1,74 @@
+*nodal,county,ba,nercr,transreg,transgrp,cendiv,st,interconnect,st_interconnect,country,usda_region,aggreg,county_name
+b101,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b102,p04027,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,yuma
+b103,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b104,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b105,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b106,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b107,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b108,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b109,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b110,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b111,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b112,p04012,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,la paz
+b113,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b114,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b115,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b116,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b117,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b118,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b119,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b120,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b121,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b122,p06073,p11,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san diego
+b123,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b124,p06065,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,riverside
+b201,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b202,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b203,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b204,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b205,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b206,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b207,p04005,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,coconino
+b208,p04005,p28,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,coconino
+b209,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b210,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b211,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b212,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b213,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b214,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b215,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b216,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b217,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b218,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b219,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b220,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b221,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b222,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b223,p32003,p13,WECC_NWPP,NorthernGrid,NorthernGrid_South,MTN,NV,western,NV,USA,mountain,NV,clark
+b224,p04015,p27,WECC_SRSG,WestConnect,WestConnect_South,MTN,AZ,western,AZ,USA,mountain,AZ,mohave
+b301,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b302,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b303,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b304,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b305,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b306,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b307,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b308,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b309,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b310,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b311,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b312,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b313,p06037,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,los angeles
+b314,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b315,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b316,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b317,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b318,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b319,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b320,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b321,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b322,p06027,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,inyo
+b323,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
+b324,p06029,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,kern
+b325,p06071,p10,WECC_CA,CAISO,CAISO,PA,CA,western,CA,USA,pacific,CA_S_CAISO,san bernardino
