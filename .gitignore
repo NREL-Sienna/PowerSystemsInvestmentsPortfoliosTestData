@@ -85,3 +85,8 @@ $RECYCLE.BIN/
 
 # Ignoring the python SQLite file
 readdata.py
+
+# Ignoring ATB testing files
+ATB_wind_inputs.csv
+ATB_nuclear_inputs.csv
+ATB_utilitypv_inputs.csv
