@@ -123,12 +123,12 @@ for gen in renewables
         end
     end
 end
-ts_wind_2030 = ts_wind_2030 / initial_cap_wind
-ts_wind_2035 = ts_wind_2035 / initial_cap_wind
+ts_wind_2030_data = ts_wind_2030 / initial_cap_wind
+ts_wind_2035_data = ts_wind_2035 / initial_cap_wind
 
-ts_wind = SingleTimeSeries("ops_variable_cap_factor", TimeArray(tstamp_ops, vcat(ts_wind_2030, ts_wind_2035)))
-ts_wind_2030 = SingleTimeSeries("ops_2030_variable_cap_factor", TimeArray(tstamp_2030_ops, ts_wind_2030), scaling_factor_multiplier = get_initial_capacity)
-ts_wind_2035 = SingleTimeSeries("ops_2035_variable_cap_factor", TimeArray(tstamp_2035_ops, ts_wind_2035), scaling_factor_multiplier = get_initial_capacity)
+#ts_wind = SingleTimeSeries("ops_variable_cap_factor", TimeArray(tstamp_ops, vcat(ts_wind_2030, ts_wind_2035)))
+ts_wind_2030 = SingleTimeSeries(; data = TimeArray(tstamp_2030_ops, ts_wind_2030_data), name = "ops_variable_cap_factor", scaling_factor_multiplier = get_initial_capacity)
+ts_wind_2035 = SingleTimeSeries(; data = TimeArray(tstamp_2035_ops, ts_wind_2035_data), name = "ops_variable_cap_factor", scaling_factor_multiplier = get_initial_capacity)
 
 ts_wind_inv_capex = SingleTimeSeries("inv_capex", TimeArray(tstamp_inv, [1.0, wind_capex / wind_capex_2035]))
 
@@ -173,8 +173,8 @@ ts_load_2030 = ts_load_2030 / peak_load
 ts_load_2035 = ts_load_2035 / peak_load
 
 ts_demand = SingleTimeSeries("ops_peak_load", TimeArray(tstamp_ops, vcat(ts_load_2030, ts_load_2035)), scaling_factor_multiplier = get_peak_load)
-ts_demand_2030 = SingleTimeSeries("ops_2030_peak_load", TimeArray(tstamp_2030_ops, ts_load_2030), scaling_factor_multiplier = get_peak_load)
-ts_demand_2035 = SingleTimeSeries("ops_2035_peak_load", TimeArray(tstamp_2035_ops, ts_load_2035), scaling_factor_multiplier = get_peak_load)
+ts_demand_2030 = SingleTimeSeries("ops_peak_load", TimeArray(tstamp_2030_ops, ts_load_2030), scaling_factor_multiplier = get_peak_load)
+ts_demand_2035 = SingleTimeSeries("ops_peak_load", TimeArray(tstamp_2035_ops, ts_load_2035), scaling_factor_multiplier = get_peak_load)
 
 t_demand = DemandRequirement{PowerLoad}(
     load_growth=0.05,
@@ -200,11 +200,11 @@ PSIP.add_technology!(p_5bus, t_demand)
 PSIP.add_time_series!(p_5bus, t_th, ts_th_cheap_inv_capex)
 PSIP.add_time_series!(p_5bus, t_th_exp, ts_th_exp_inv_capex)
 
-PSIP.add_time_series!(p_5bus, t_re, ts_wind_2030)
-PSIP.add_time_series!(p_5bus, t_re, ts_wind_2035)
+IS.add_time_series!(p_5bus.data, t_re, ts_wind_2030; model_year = "2030")
+IS.add_time_series!(p_5bus.data, t_re, ts_wind_2035; year = "2035")
 PSIP.add_time_series!(p_5bus, t_re, ts_wind_inv_capex)
 
-PSIP.add_time_series!(p_5bus, t_demand, ts_demand_2030)
-PSIP.add_time_series!(p_5bus, t_demand, ts_demand_2035)
+IS.add_time_series!(p_5bus.data, t_demand, ts_demand_2030; year = "2030")
+IS.add_time_series!(p_5bus.data, t_demand, ts_demand_2035; year = "2035")
 
 #InfrastructureSystems.serialize(p_5bus)
