@@ -200,11 +200,16 @@ PSIP.add_technology!(p_5bus, t_demand)
 PSIP.add_time_series!(p_5bus, t_th, ts_th_cheap_inv_capex)
 PSIP.add_time_series!(p_5bus, t_th_exp, ts_th_exp_inv_capex)
 
-IS.add_time_series!(p_5bus.data, t_re, ts_wind_2030; model_year = "2030")
+IS.add_time_series!(p_5bus.data, t_re, ts_wind_2030; year = "2030")
 IS.add_time_series!(p_5bus.data, t_re, ts_wind_2035; year = "2035")
 PSIP.add_time_series!(p_5bus, t_re, ts_wind_inv_capex)
 
 IS.add_time_series!(p_5bus.data, t_demand, ts_demand_2030; year = "2030")
 IS.add_time_series!(p_5bus.data, t_demand, ts_demand_2035; year = "2035")
-
+IS.get_time_series(
+        IS.SingleTimeSeries,
+        t_re,
+        "ops_variable_cap_factor";
+        year = "2035",
+    )
 #InfrastructureSystems.serialize(p_5bus)
